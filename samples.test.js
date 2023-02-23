@@ -7,5 +7,5 @@ test('capitalize function', () => {
 
 // A reverseString function that takes a string and returns it reversed.
 test('reverseString function', () => {
-  expect(reverseString('hello').toBe('olleh'));
+  expect(reverseString('hello')).toBe('olleh');
 });
