@@ -3,7 +3,7 @@ import {
   reverseString,
   calculator,
   encodeInCaesarCipher,
-} from './funcs';
+} from './modules';
 
 // A capitalize function that takes a string and returns it with the first character capitalized.
 test('capitalize function', () => {
@@ -34,3 +34,5 @@ test('caesarCipher function', () => {
     'Pm ol ohk hufaopun jvumpkluaphs av zhf, ol dyval pa pu jpwoly, aoha pz, if zv johunpun aol vykly vm aol slaalyz vm aol hswohila, aoha uva h dvyk jvbsk il thkl vba.'
   );
 });
+
+// An analyzeArray function that takes an array of numbers and returns an object with the following properties: average, min, max, and length.
