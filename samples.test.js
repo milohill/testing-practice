@@ -3,6 +3,7 @@ import {
   reverseString,
   calculator,
   encodeInCaesarCipher,
+  analyzeArray,
 } from './modules';
 
 // A capitalize function that takes a string and returns it with the first character capitalized.
@@ -36,3 +37,11 @@ test('caesarCipher function', () => {
 });
 
 // An analyzeArray function that takes an array of numbers and returns an object with the following properties: average, min, max, and length.
+test('analyzeArray', () => {
+  expect(analyzeArray([1, 2, 3, 4, 5])).toEqual({
+    average: 3,
+    min: 1,
+    max: 5,
+    length: 5,
+  });
+});

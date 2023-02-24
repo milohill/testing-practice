@@ -52,3 +52,13 @@ export function encodeInCaesarCipher(str, shiftNumber) {
 
   return convertedStr;
 }
+
+export function analyzeArray(arr) {
+  const sum = arr.reduce((acc, cur) => acc + cur, 0);
+  return {
+    average: sum / arr.length,
+    min: Math.min(...arr),
+    max: Math.max(...arr),
+    length: arr.length,
+  };
+}
